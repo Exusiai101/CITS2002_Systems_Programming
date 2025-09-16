@@ -1,0 +1,8 @@
+Batch1 90 3 7 4 2 5 1
+Batch2 100 3 1 4 3 6 9 7 4 9 2
+Batch3 50
+Batch4 70 1 6
+Batch5 60 2 4 3 5
+Batch6 95 1 3 2 2
+Batch7 110
+Batch8 80 1 9 2 1

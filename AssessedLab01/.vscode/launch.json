@@ -1,0 +1,92 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01",
+      "program": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc build active file",
+      "environment": [],
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false
+      },
+    },
+    {
+      "name": "Debug with Command Line Args",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": ["arg1", "arg2"],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01",
+      "program": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc build active file",
+    },
+    {
+      "name": "Debug and Stop at Entry",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01",
+      "program": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc build active file",
+    },
+    {
+      "name": "Attach to Process",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "/home/scout/OneDrive/StudyAbroad/UWA/CITS2002/AssessedLab01/build/Debug/outDebug",
+      "processId": "${command:pickProcess}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

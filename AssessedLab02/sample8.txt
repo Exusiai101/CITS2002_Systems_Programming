@@ -1,0 +1,8 @@
+A1 90 3 7 4 2 5 1
+Process2 100 3 1 4 3 6 9 7 4 9 2
+Task3 50
+Job4 70 1 6
+Batch5 60 2 4 3 5
+Operation6 95 1 3 2 2
+Program7 110
+Op8 80 1 9 2 1
